@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dog & CIA | Pet shop</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><a class="brand" href="/">🐾 Dog <span>& CIA</span></a><nav><a href="#produtos">Produtos</a><button id="cartOpen" class="cart">Carrinho <b id="cartCount">0</b></button></nav></header>
+<section class="hero"><div><p class="eyebrow">TUDO PARA SEU MELHOR AMIGO</p><h1>Amor, cuidado<br>e diversão em<br><em>cada patinha.</em></h1><p>Encontre rações, brinquedos e acessórios para seu pet.</p><a class="cta" href="#produtos">Ver produtos <span>→</span></a></div><div class="hero-art">🐶<span>🐾</span></div></section>
+<main><div class="section-head" id="produtos"><div><p class="eyebrow">NOSSA LOJA</p><h2>Produtos para seu pet</h2></div><input id="search" placeholder="Buscar produto..." aria-label="Buscar produto"></div><div id="categories" class="categories"></div><div id="products" class="products"><p>Carregando produtos...</p></div></main>
+<footer><strong>🐾 Dog & CIA</strong><span>Feito com carinho para quem ama pets.</span></footer>
+<dialog id="cartDialog"><div class="dialog-head"><h2>Seu carrinho</h2><button class="x" id="cartClose">✕</button></div><div id="cartItems"></div><div class="cart-total">Total <strong id="cartTotal">R$ 0,00</strong></div>
+<form id="checkout"><h3>Dados para o pedido</h3><input name="customer_name" placeholder="Seu nome completo" required><input name="phone" placeholder="Telefone / WhatsApp" required><textarea name="address" placeholder="Endereço para entrega ou retirada" required></textarea><button class="cta full" type="submit">Enviar pedido</button><p class="hint">O pedido será registrado. A loja confirmará pagamento e entrega.</p></form><p id="checkoutMessage" role="status"></p></dialog>
+<script src="/app.js"></script>
+</body></html>
